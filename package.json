@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
     "build": "remix vite:build",
     "dev": "vite",
     "start": "vite preview"
@@ -44,6 +44,6 @@
     "typescript": "^5.5.3",
     "@remix-run/dev": "^2.16.8",
     "@remix-run/vite": "^2.16.8",
-    "vite": "^5.4.14",
+    "vite": "^5.4.14"
   }
 }
