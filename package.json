@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build": "remix vite:build"
     "lint": "eslint .",
     "preview": "vite preview"
+    "build": "remix vite:build",
+    "dev": "vite",
+    "start": "vite preview"
+
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
@@ -33,7 +34,6 @@
     "yup": "^1.4.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.16.8"
     "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -42,6 +42,8 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.5.3",
-    "vite": "^5.4.6"
+    "@remix-run/dev": "^2.16.8",
+    "@remix-run/vite": "^2.16.8",
+    "vite": "^5.4.14",
   }
 }
